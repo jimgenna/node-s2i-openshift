@@ -5,6 +5,7 @@ authors: [jimgenna]
 ---
 
 <!-- truncate -->
+
 # testing 
 
 
@@ -39,10 +40,10 @@ I can write **Markdown** alongside my _JSX_!
 
 ## image URL test
 
-![image](https://thesquare.americanexpress.com/api/users/userphotobyid?userId=42375)
+<!-- ** ![image](https://thesquare.americanexpress.com/api/users/userphotobyid?userId=42375) ** --> 
 
 #### TIMS pricing 
-![image](https://thesquare.americanexpress.com/media/32977660/2024-tims-pricing.jpg?width=724&height=510)
+<!-- ** ![image](https://thesquare.americanexpress.com/media/32977660/2024-tims-pricing.jpg?width=724&height=510) -->
 <!-- ****** -->
 
 ## Admonitions test
