@@ -29,7 +29,7 @@ export const Highlight = ({children, color}) => (
 		
 I can write **Markdown** alongside my _JSX_!
 
-<!-- another Highlight coloring example: -->
+<!-- another Highlight coloring example: 
 
 <span style={{backgroundColor: 'red'}}>Red</span>
 <span style={{backgroundColor: 'blue', color: 'white'}}>Blue</span>
@@ -101,6 +101,28 @@ timeline
 <!-- worked -->
 ## Timeline test
 ```mermaid
+
+%%{init: { 'logLevel': 'debug', 'theme': 'forest' } }%%
+%%{init: { 'logLevel': 'debug', 'theme': 'dark' } }%%
+%%{init: { 'logLevel': 'debug', 'theme': 'neutral' } }%%
+%%{init: { 'theme': 'default' } }%%
+%%{init: { 'theme': 'base' } }%%
+%%{init: { "fontFamily": "Trebuchet MS, Verdana, Arial, Sans-Serif" } }%%
+%%{init: { "sequence": { "wrap": true, "width":300 } } }%%
+%%{init: { 'logLevel': 'debug', 'theme': 'default' , 'themeVariables': {
+           'cScale0': '#ff0000', 'cScaleLabel0': '#ffffff',
+           'cScale1': '#00ff00', 'cScaleLabel1': '#000000',
+           'cScale2': '#0000ff', 'cScaleLabel2': '#000000'
+} } }%%
+
+%%{init: { 'themeVariables': {
+           'cScale0': '#ff0000', 'cScaleLabel0': '#ffffff',
+           'cScale1': '#00ff00', 'cScaleLabel1': '#000000',
+           'cScale2': '#0000ff', 'cScaleLabel2': '#ffffff',
+           'cScale3': '#00ffff', 'cScaleLabel3': '#000000'
+} } }%%
+%% comment  A("z/OS upgrade")
+
 timeline
     title History of Social Media Platform
     2002 : LinkedIn
